@@ -1,1 +1,26 @@
 // Navigation Styles here
+
+
+.nav-section {
+    border-bottom: 2px dashed @navigation-border;
+    color: @font-color;
+    .nav-bar {
+        display: flex;
+        justify-content: space-between;
+        padding: 2%;
+        
+        .nav-line {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 325px;
+            font-size: 15px;
+            
+            a {
+                text-decoration: none;
+                color: @font-color;
+            }
+        }
+    }
+}
+
